@@ -3,11 +3,11 @@ site_description: 'Payloads All The Things, a list of useful payloads and bypass
 site_url: https://adminlove520.github.io/CyberSecurityHub
 
 repo_url: https://github.com/adminlove520/CyberSecurityHub
-edit_uri: blob/master/
+edit_uri: blob/main/
 
 copyright: © 2024 东方隐侠安全团队
-# logo: 'images/site_logo.png'
-# favicon: 'images/favicon.png'
+logo: 'images/fav.jpg'
+favicon: 'images/favicon.ico'
 
 theme:
   name: material
