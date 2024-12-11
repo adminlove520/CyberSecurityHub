@@ -75,6 +75,8 @@ plugins:
         - code: zh
           name: "中文（简体）"
           locale: zh_CN
+          default: true
+          build: true
         - code: en
           name: "English"
           locale: en_US
