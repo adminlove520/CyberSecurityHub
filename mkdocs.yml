@@ -69,17 +69,6 @@ markdown_extensions:
 plugins:
   - search
   - social
-  - i18n:
-      default_language: !ENV [DEFAULT_LANGUAGE, "zh"]
-      languages:
-        - code: zh
-          name: "中文（简体）"
-          locale: zh_CN
-          default: true
-          build: true
-        - code: en
-          name: "English"
-          locale: en_US
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
