@@ -40,7 +40,6 @@ theme:
     - navigation.top
     - search.share
     - search.suggest
-    language: zh # 一些提示性的文字会变成中文
     # - toc.integrate
     # - navigation.path
 
