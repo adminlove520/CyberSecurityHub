@@ -74,8 +74,10 @@ plugins:
       languages:
         - code: zh
           name: "中文（简体）"
+          locale: zh_CN
         - code: en
           name: "English"
+          locale: en_US
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
