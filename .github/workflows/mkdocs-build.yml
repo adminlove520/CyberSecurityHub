@@ -1,5 +1,6 @@
 name: mkdocs-build 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -18,7 +19,7 @@ jobs:
         shell: bash
         run: |
           git config --global user.email "no-reply@github.com"
-          git config --global user.name "Swk"
+          git config --global user.name "whoami"
           git config --global pull.rebase false
           git submodule add https://github.com/adminlove520/CyberSecurityHub/ docs
           mv docs/.github/overrides .
